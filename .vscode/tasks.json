@@ -1,0 +1,19 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Setup Zephyr",
+            "type": "shell",
+            "command": "west init -l manifest-repo && west update",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build & Run zephyrblog_example1",
+            "type": "shell",
+            "command": "west build -b native_posix_64 -t run zephyrblog_example1",
+            "problemMatcher": []
+        }
+    ]
+}
