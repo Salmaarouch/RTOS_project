@@ -5,7 +5,7 @@
 			"WORKSPACE": "${containerWorkspaceFolder}"
 		}
 	},
-	"remoteUser": "dev",
+	"remoteUser": "root",
 
 	"containerEnv": { "ZEPHYR_BASE": "${containerWorkspaceFolder}/zephyr" },
 
