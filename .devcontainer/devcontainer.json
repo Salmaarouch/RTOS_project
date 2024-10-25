@@ -7,18 +7,33 @@
 	},
 	"remoteUser": "root",
 
-	"containerEnv": { "ZEPHYR_BASE": "${containerWorkspaceFolder}/zephyr" },
-
-    "settings": {
-		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "bash"
-			},
-		},
-		"terminal.integrated.defaultProfile.linux": "bash"
+	"containerEnv": { 	
+		"ZEPHYR_BASE": "${containerWorkspaceFolder}/zephyr"
 	},
-	"extensions": [
-		"ms-vscode.cpptools",
-		"ms-vscode.cmake-tools"
-	]
+	"remoteEnv": {
+		"PATH" : "${containerEnv:PATH}:${containerWorkspaceFolder}/STM32CubeProgrammer/bin"
+	},
+    
+    "mounts": [
+		"type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
+			],
+			
+	"runArgs": ["--privileged"],
+
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "bash"
+					}
+				},
+				"terminal.integrated.defaultProfile.linux": "bash"
+			},
+			"extensions": [
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools"
+			]
+		}
+	}
 }
