@@ -1,3 +1,7 @@
+# Prerequisites
+
+- Install STM32 Cube Programmer for ST Link drivers
+
 # How To
 
 - west init -l manifest-repo
