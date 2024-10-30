@@ -1,4 +1,4 @@
-FROM zephyrprojectrtos/zephyr-build:v0.26.14
+FROM zephyrprojectrtos/zephyr-build:v0.27.4
 
 ## Setup a user with sudo support
 USER root
