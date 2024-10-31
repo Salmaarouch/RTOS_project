@@ -29,7 +29,10 @@
 			},
 			"extensions": [
 				"ms-vscode.cpptools",
-				"ms-vscode.cmake-tools"
+				"ms-vscode.cmake-tools",
+				"ms-vscode.vscode-serial-monitor",
+				"mcu-debug.debug-tracker-vscode",
+				"marus25.cortex-debug"
 			]
 		}
 	}

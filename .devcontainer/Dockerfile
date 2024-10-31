@@ -6,6 +6,9 @@ USER root
 RUN apt update
 RUN apt install -y gdb 
 
+RUN pyocd pack update
+RUN pyocd pack install stm32h563zitx
+
 #ARG USERNAME=dev
 #ARG USER_UID=1001
 #ARG USER_GID=$USER_UID
