@@ -2,15 +2,16 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-    - name: zellaco
-      url-base: https://github.com/Zellaco
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
       revision: v3.7.0
       import: true
-    - name: zephyrblog_example1
-      remote: zellaco
+    - name: zephyr-playground-app
+      url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-playground-app.git
+      revision: main
+    - name: zephyr-spe-app
+      url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/esp/spe-node-stm32.git
       revision: main
   self:
     path: manifest-repo
