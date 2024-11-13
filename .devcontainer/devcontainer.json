@@ -5,7 +5,7 @@
 			"WORKSPACE": "${containerWorkspaceFolder}"
 		}
 	},
-	"remoteUser": "root",
+	"remoteUser": "user",
 
 	"containerEnv": { 	
 		"ZEPHYR_BASE": "${containerWorkspaceFolder}/zephyr"
@@ -19,7 +19,7 @@
 				},
 				{
 					"source": "${localEnv:HOME}/.ssh",
-					"target": "/home/root/.ssh",
+					"target": "/home/user/.ssh",
 					"type": "bind"
 				}
 			],

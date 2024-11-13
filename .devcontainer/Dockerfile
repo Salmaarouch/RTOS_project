@@ -6,6 +6,7 @@ USER root
 RUN apt update
 RUN apt install -y gdb
 
+
 RUN pyocd pack update
 RUN pyocd pack install stm32h563zitx
 
@@ -24,5 +25,5 @@ RUN pyocd pack install stm32h563zitx
 #    && chmod 0440 /etc/sudoers.d/$USERNAME
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
-#USER $USERNAME
+USER user
 
