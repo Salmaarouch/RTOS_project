@@ -13,7 +13,7 @@
 ## PyOCD
 
 pyocd pack update
-pyocdpack install stm32h563zitx
+pyocd pack install stm32h563zitx
 
 ## Git Topology
 
