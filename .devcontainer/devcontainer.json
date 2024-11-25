@@ -41,7 +41,8 @@
 				"ms-vscode.cmake-tools",
 				"ms-vscode.vscode-serial-monitor",
 				"mcu-debug.debug-tracker-vscode",
-				"marus25.cortex-debug"
+				"marus25.cortex-debug",
+				"plorefice.devicetree"
 			]
 		}
 	}
