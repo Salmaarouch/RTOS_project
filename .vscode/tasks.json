@@ -10,10 +10,14 @@
             "problemMatcher": []
         },
         {
-            "label": "Build & Run zephyrblog_example1",
+            "label": "Build playground",
             "type": "shell",
-            "command": "west build -b native_posix_64 -t run zephyrblog_example1",
-            "problemMatcher": []
+            "command": "west build -b nucleo_h563zi zephyr-playground-app/",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
