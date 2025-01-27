@@ -10,8 +10,8 @@ manifest:
     - name: zephyr-playground-app
       url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-playground-app.git
       revision: main
-    - name: zephyr-spe-app
-      url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/esp/spe-node-stm32.git
+    - name: zephyr-device-management-app
+      url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-device-management-app.git
       revision: main
   self:
     path: manifest-repo
