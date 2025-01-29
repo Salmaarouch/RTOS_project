@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
-      revision: v3.7.0
+      revision: v4.0.0
       import: true
     - name: zephyr-playground-app
       url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-playground-app.git
