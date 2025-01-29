@@ -1,4 +1,4 @@
-FROM zephyrprojectrtos/zephyr-build:v0.26.18
+FROM zephyrprojectrtos/zephyr-build:v0.27.4
 
 USER root
 
@@ -11,3 +11,5 @@ USER user
 
 RUN pyocd pack update
 RUN pyocd pack install stm32h563zitx
+
+RUN pip install -U dtsh

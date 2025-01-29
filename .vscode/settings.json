@@ -1,4 +1,24 @@
 {
     "cmake.sourceDirectory": "/workspaces/zephyr_workspace/modules/bsim_hw_models/nrf_hw_models",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "iostream": "cpp",
+        "net_if.h": "c",
+        "log.h": "c",
+        "chrono": "c",
+        "variant": "c",
+        "unistd.h": "c",
+        "posix_types.h": "c",
+        "posix_features.h": "c",
+        "limits.h": "c",
+        "dirent.h": "c",
+        "stm32_ll_i2c.h": "c",
+        "stm32h5xx_ll_i2c.h": "c",
+        "string": "cpp",
+        "algorithm": "cpp",
+        "adc.h": "c",
+        "ios": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cortex-debug.variableUseNaturalFormat": true
 }

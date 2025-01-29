@@ -9,7 +9,7 @@ manifest:
       import: true
     - name: zephyr-playground-app
       url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-playground-app.git
-      revision: main
+      revision: feature/MDM-1831
     - name: zephyr-device-management-app
       url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-device-management-app.git
       revision: main
