@@ -13,5 +13,9 @@ manifest:
     - name: zephyr-device-management-app
       url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/~andreas.heck/zephyr-device-management-app.git
       revision: main
+    - name: framework
+      path: modules/lib/framework
+      url: ssh://git@lmswet-bitbucket01.europe.leicams.com:7999/pyr/framework.git
+      revision: feature/MDM-1831
   self:
     path: manifest-repo
