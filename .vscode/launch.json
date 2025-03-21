@@ -15,7 +15,6 @@
             "svdFile": "${workspaceFolder}/.svd/STM32H563.svd",
             "showDevDebugOutput": "none",
             "servertype": "pyocd",
-            "serverArgs": ["-u", "003900223433510F37363934"],
             "gdbPath": "/opt/toolchains/zephyr-sdk-${env:ZSDK_VERSION}/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
         },
         {

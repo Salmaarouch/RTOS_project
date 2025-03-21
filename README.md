@@ -11,6 +11,7 @@
 # Hints
 
 ## PyOCD
+west flash --runner pyocd
 
 pyocd pack update
 pyocd pack install stm32h563zitx
